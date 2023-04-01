@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Nosifer');
+
+.container{
+    background-color: #353131;
+    background-image: url('https://i.pinimg.com/736x/46/40/a1/4640a1b247b13bdad2f48d25872c5fc7--rick-and-morty.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 350px;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 5px 10px 13px -6px rgba(0,0,0,0.94);
+    text-shadow: 6px 4px 7px rgba(0,0,0,0.6);
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+}
+.container:hover{
+  -webkit-animation:zoom-in-out 1s ease 0.1s 1 normal;
+  -moz-animation:zoom-in-out 1s ease 0.1s 1 normal;
+  -ms-animation:zoom-in-out 1s ease 0.1s 1 normal;
+  animation:zoom-in-out 1s ease 0.1s 1 normal;
+  }
+  
+  @-webkit-keyframes zoom-in-out {
+  0%{ -webkit-transform: scale(1); transform: scale(1); }
+  50%{ -webkit-transform: scale(1.1); transform: scale(1.1); }
+  100%{ -webkit-transform: scale(1); transform: scale(1); }
+  }
+  
+  @keyframes zoom-in-out {
+  0%{ -ms-transform: scale(1); transform: scale(1); }
+  50%{ -ms-transform: scale(1.1); transform: scale(1.1); }
+  100%{ -ms-transform: scale(1); transform: scale(1); }
+  }
+
+.datos{
+    font-size: 10px;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: dotted;
+    font-family: Nosifer, cursive;
+    color: black;
+    text-shadow: 4px 1px 7px rgb(233, 233, 233);
+}
+.titulo{
+    margin: 0px 0px 5px 0px;
+    padding: 0px;
+    font-family: Nosifer, cursive;
+    font-weight: bold;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 1px;
+    word-spacing: -1px;
+    color: rgb(133, 153, 0);
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+    text-align: center;
+    
+}
+
+.img{
+    border: solid black ;
+    border-radius: 30px 30px 30px 30px;
+    margin: 0px 0px 5px 0px;
+    width: 100%;
+}
+
+.closeButton {
+    margin: 0px;
+    padding: 0px;
+    font-size:14px;
+    width:30px;
+    height:30px;
+    border-width:0px;
+    color:#fff;
+    border-color:#d02718;
+    font-weight:bold;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    box-shadow:inset 0px 1px 0px 0px #f5978e;
+    text-shadow:inset 0px 1px 0px #810e05;
+    background:linear-gradient(rgba(208, 2, 27, 1), rgba(192, 136, 131, 1));
+  }
+.closeButton{
+    position:relative;
+    bottom:3.5%;
+    left: 90%;
+   
+}
+  
+  .closeButton:hover {
+    background: linear-gradient(#11b3b8da, #9eb923);
+    color: #810e05;
+  } 
+  .favboton {
+    margin: 0px;
+    padding: 0px;
+    font-size:14px;
+    width:30px;
+    height:30px;
+    border-width:0px;
+    color:#fff;
+    border-color:#d02718;
+    font-weight:bold;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    box-shadow:inset 0px 1px 0px 0px #f5978e;
+    text-shadow:inset 0px 1px 0px #810e05;
+    background:linear-gradient(rgba(208, 2, 27, 1), rgba(192, 136, 131, 1));
+  }
+  .favboton{
+    position:relative;
+    bottom: 40px;
+    right: 4.8%;
+  }
+  .favboton:hover {
+    background: linear-gradient(#11b3b8da, #9eb923);
+  }
