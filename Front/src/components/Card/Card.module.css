@@ -14,7 +14,7 @@
     text-shadow: 6px 4px 7px rgba(0,0,0,0.6);
     display: flex;
     flex-direction: column;
-    margin: 8px;
+    margin: 100px 0px 0px 0px;
 }
 .container:hover{
   -webkit-animation:zoom-in-out 1s ease 0.1s 1 normal;

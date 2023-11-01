@@ -16,7 +16,7 @@ export default function SearchBar({ onSearch }) {
         onChange={handleChange}
       />
       <button className={style.searchButton} onClick={() => onSearch(id)}>
-        Agregar
+        🔎
       </button>
     </div>
   );

@@ -1,5 +1,6 @@
 .searchInput{
     border: 0px;
+    padding: 0px;
     border-radius: 15px 0px 0px 15px;
     background-color: #e0e0e0;
     height: 40px; 
@@ -8,13 +9,27 @@
 }
 
 .searchButton{
+    padding-bottom:5px;
     border: 0px;
     border-radius:0px 15px 15px 0px;
     background-color: #e0e0e0;
     height: 40px;
-   
+    width:36px;
+    font-size: large;
+    transition: all 0.3s ease;
+    
 }
+
+.searchButton:hover {
+    background-color: #054b667a;
+  }
+  
+  .searchButton:active {
+    transform: scale(0.90); 
+  }
 .bar{
     position: relative;
-    left: 2.5rem;
+}
+.searchInput:hover{
+    background-color: #054b667a;
 }

@@ -1,9 +1,11 @@
 .cartas{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
     flex-direction: row;
     justify-content: space-between;
     width: 80%;
     margin: auto;
     padding: 2rem;
-    
+  
 }
